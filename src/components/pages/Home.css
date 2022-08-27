@@ -1,0 +1,61 @@
+.front{
+    width: 80%;
+    margin:auto;
+
+    display: flex;
+}
+.front>div{
+    width: 50%;
+    height:500px;
+
+    /* text-align: center; */
+    justify-content: center ;
+}
+#title{
+    margin-top: 20%;
+    font-size: 3rem;
+    margin-bottom: 5%;
+    
+}
+#disc{
+    
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+    
+}
+.btnl{
+    margin-right: 50px;
+}
+.image>img{
+    width: 100%;
+}
+#second{
+    text-align: center;
+   margin-top: 40px     
+}
+#secondpara{
+    text-align: center;
+}
+#customer{
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+}
+#counting{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+#plan{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+
+    width: 70%;
+    margin: auto;
+}
+#plan>div{
+    margin: auto;
+}
+h3{
+    color:rgb(10, 89, 163)
+}
